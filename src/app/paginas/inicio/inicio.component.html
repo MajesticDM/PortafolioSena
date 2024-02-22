@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav [ngClass]="{'navBajando': isScrollingDown}">
+        <ul>
+            <li class="link"><a [ngClass]="{'active': claseActiva == 'inicio'}" (click)="scrollToElement('inicio')">Inicio</a></li>
+            <li class="link"><a [ngClass]="{'active': claseActiva == 'proyectos'}" (click)="scrollToElement('proyectos')">Proyectos</a></li>
+            <li class="link"><a [ngClass]="{'active': claseActiva == 'info'}" (click)="scrollToElement('info')">Informacion</a></li>
+            <li class="link"><a [ngClass]="{'active': claseActiva == 'experiencias'}" (click)="scrollToElement('experiencias')">Experiencias</a></li>
+        </ul>
+    </nav>
+    <div class="contenedor">
+      <div id="inicio" class="contenedorInfo">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores sequi
+          delectus provident ratione tenetur saepe autem nobis, hic magnam qui
+          cupiditate fuga. Voluptatum dolores ducimus id? Explicabo odit
+          incidunt alias?
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores sequi
+          delectus provident ratione tenetur saepe autem nobis, hic magnam qui
+          cupiditate fuga. Voluptatum dolores ducimus id? Explicabo odit
+          incidunt alias?
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores sequi
+          delectus provident ratione tenetur saepe autem nobis, hic magnam qui
+          cupiditate fuga. Voluptatum dolores ducimus id? Explicabo odit
+          incidunt alias?
+        </p>
+      </div>
+      <div id="proyectos" class="contenedorInfo">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores sequi
+          delectus provident ratione tenetur saepe autem nobis, hic magnam qui
+          cupiditate fuga. Voluptatum dolores ducimus id? Explicabo odit
+          incidunt alias?
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores sequi
+          delectus provident ratione tenetur saepe autem nobis, hic magnam qui
+          cupiditate fuga. Voluptatum dolores ducimus id? Explicabo odit
+          incidunt alias?
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores sequi
+          delectus provident ratione tenetur saepe autem nobis, hic magnam qui
+          cupiditate fuga. Voluptatum dolores ducimus id? Explicabo odit
+          incidunt alias?
+        </p>
+      </div>
+      <div id="info" class="contenedorInfo">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores sequi
+          delectus provident ratione tenetur saepe autem nobis, hic magnam qui
+          cupiditate fuga. Voluptatum dolores ducimus id? Explicabo odit
+          incidunt alias?
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores sequi
+          delectus provident ratione tenetur saepe autem nobis, hic magnam qui
+          cupiditate fuga. Voluptatum dolores ducimus id? Explicabo odit
+          incidunt alias?
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores sequi
+          delectus provident ratione tenetur saepe autem nobis, hic magnam qui
+          cupiditate fuga. Voluptatum dolores ducimus id? Explicabo odit
+          incidunt alias?
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores sequi
+          delectus provident ratione tenetur saepe autem nobis, hic magnam qui
+          cupiditate fuga. Voluptatum dolores ducimus id? Explicabo odit
+          incidunt alias?
+        </p>
+      </div>
+      <div id="experiencias" class="contenedorInfo">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores sequi
+          delectus provident ratione tenetur saepe autem nobis, hic magnam qui
+          cupiditate fuga. Voluptatum dolores ducimus id? Explicabo odit
+          incidunt alias?
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores sequi
+          delectus provident ratione tenetur saepe autem nobis, hic magnam qui
+          cupiditate fuga. Voluptatum dolores ducimus id? Explicabo odit
+          incidunt alias?
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores sequi
+          delectus provident ratione tenetur saepe autem nobis, hic magnam qui
+          cupiditate fuga. Voluptatum dolores ducimus id? Explicabo odit
+          incidunt alias?
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores sequi
+          delectus provident ratione tenetur saepe autem nobis, hic magnam qui
+          cupiditate fuga. Voluptatum dolores ducimus id? Explicabo odit
+          incidunt alias?
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
