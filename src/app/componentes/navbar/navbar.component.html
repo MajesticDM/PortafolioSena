@@ -1,8 +1,8 @@
-<nav>
+<nav [ngClass]="{'navBajando': isScrollingDown}">
     <ul>
-        <li><a href="#inicio">Inicio</a></li>
-        <li><a href="#proyectos">Proyectos</a></li>
-        <li><a href="#info">Informacion</a></li>
-        <li><a href="#experiencias">Experiencias</a></li>
+        <li class="link"><a [ngClass]="{'active': claseActiva == 'inicio'}" (click)="scrollToElement('inicio')">Inicio</a></li>
+        <li class="link"><a [ngClass]="{'active': claseActiva == 'experiencias'}" (click)="scrollToElement('experiencias')">Experiencias</a></li>
+        <li class="link"><a [ngClass]="{'active': claseActiva == 'proyectos'}" (click)="scrollToElement('proyectos')">Proyectos</a></li>
+        <li class="link"><a [ngClass]="{'active': claseActiva == 'info'}" (click)="scrollToElement('info')">Informacion</a></li>
     </ul>
 </nav>
