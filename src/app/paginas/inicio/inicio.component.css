@@ -4,16 +4,4 @@
 }
 
 
-.contenedor {
-    overflow-y: hidden;
-    scroll-behavior: smooth;
-    transition: ease 100ms;
-    margin-top: 10dvh;
-}
-
-.contenedorInfo {
-    height: 500px;
-}
-
-
 
