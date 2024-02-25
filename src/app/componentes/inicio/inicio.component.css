@@ -1,7 +1,74 @@
-.contenedorInicio{
-    background-color: rgb(129, 128, 128);
-    clip-path: polygon(50% 0, 100% 0, 100% 74%, 50% 100%, 0 74%, 0 0);
-    height: 122dvh;
+.contenedorInicio {
+    height: 91dvh;
     position: relative;
     z-index: 9;
+    display: flex;
+    margin: 10px;
+    border-radius: 28px;
+    /* box-shadow: 5px -5px teal; */
+    scale: 1.01;
+    background: url('https://webimages.mongodb.com/_com_assets/cms/kv2kwhst1pwfaq58z-lower-left.svg?auto=format%252Ccompress') bottom -3px left -4px no-repeat rgb(51, 49, 49);
+
+    .sub {
+        font-size: 20px;
+        color: white;
+    }
+
+    .text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50dvw;
+        padding-top: 6rem;
+
+        p {
+            width: 40dvw;
+            margin: 0;
+        }
+
+        .fuerte {
+            font-size: 90px;
+            color: #75c58e;
+        }
+
+        .medio {
+            font-size: 40px;
+            color: #40957f;
+        }
+
+
+    }
+
+    .icon {
+        width: 50dvw;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+
+        .image {
+            display: flex;
+            justify-content: center;
+
+            img {
+                height: 50dvh;
+            }
+        }
+
+        .texto {
+            text-align: center;
+            font-size: 1.2rem;
+        }
+
+    }
+
+}
+
+.contenedorInicio:hover {}
+
+/* Para responsive */
+@media screen and (max-width: 500px) {
+    .contenedorInicio {
+        background-color: red;
+    }
 }

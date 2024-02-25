@@ -1,8 +1,6 @@
 .contenedorExperiencia{
     background-color: rgb(184, 184, 184);
-    clip-path: polygon(50% 0, 100% 0, 100% 74%, 50% 100%, 0 74%, 0 0);
     height: 122dvh;
     position: relative;
-    top: -34dvh;
     z-index: 8;
 }

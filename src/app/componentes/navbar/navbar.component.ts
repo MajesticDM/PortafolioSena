@@ -14,11 +14,10 @@ export class NavbarComponent {
 
   claseActiva: string = "inicio";
 
-  constructor(private elementRef: ElementRef, private iniComp: InicioComponent){ }
+  constructor(private iniComp: InicioComponent){ }
 
   @HostListener('window:scroll', [])
   onWindowScroll() {
-    debugger
     const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
     this.isScrollingDown = scrollTop > this.lastScrollTop;
     this.lastScrollTop = scrollTop <= 0 ? 0 : scrollTop; // Reiniciar la posición si se llega al tope de la página
@@ -28,12 +27,7 @@ export class NavbarComponent {
   }
   
   scrollToElement(destino: string): void {
-    const element = this.elementRef.nativeElement.querySelector('#' + destino);
     this.claseActiva = destino;
-
     this.iniComp.scrollToElement(destino);
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth', block: 'end' });
-    }
   }
 }

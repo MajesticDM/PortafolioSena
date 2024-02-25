@@ -13,6 +13,7 @@ import { InformacionComponent } from './componentes/informacion/informacion.comp
 import { ExperienciaComponent } from './componentes/experiencia/experiencia.component';
 import { InicioComponent as InicioComponentStandAlone } from './componentes/inicio/inicio.component';
 import { ProyectosComponent } from './componentes/proyectos/proyectos.component';
+import { FooterComponent } from './componentes/footer/footer.component';
 
 @NgModule({
     declarations: [AppComponent, InicioComponent, NotFoundComponent],
@@ -27,7 +28,8 @@ import { ProyectosComponent } from './componentes/proyectos/proyectos.component'
         InformacionComponent,
         ExperienciaComponent,
         InicioComponentStandAlone,
-        ProyectosComponent
+        ProyectosComponent,
+        FooterComponent
     ],
     providers: [],
     bootstrap: [AppComponent]
