@@ -1,6 +1,67 @@
-.contenedorExperiencia{
-    background-color: rgb(184, 184, 184);
-    height: 122dvh;
+.contenedorExperiencia {
+    height: 91dvh;
     position: relative;
     z-index: 8;
+    display: flex;
+    margin: 20px 10px;
+    border-radius: 28px;
+    scale: 1.01;
+    background: url('https://webimages.mongodb.com/_com_assets/cms/kv2kxa02sodwayqj7-lower-right.svg?auto=format%252Ccompress') bottom -1px right -500px no-repeat rgb(51, 49, 49);
+    justify-content: space-around;
+    align-items: center;
+
+    .lista {
+        ul {
+            list-style: none;
+        }
+
+        ul li {
+            cursor: pointer;
+            color: #40957f;
+            margin: 5px;
+            transition: ease 200ms;
+        }
+
+        ul li:hover {
+            scale: 1.05;
+            color: #75c58e;
+        }
+
+        ul li.active {
+            scale: 1.05;
+            color: #75c58e;
+        }
+
+    }
+
+    .texto {
+        width: 22dvw;
+        height: 100%;
+        font-size: 2rem;
+        color: #75c58e;
+    }
+
+    .contenido {
+        .opcion {
+            list-style: none;
+            background-color: #75c58e;
+            height: 200px;
+            width: 50dvw;
+            display: none;
+            transition: margin-left 2.5s ease;
+            border-radius: 28px;
+            padding: 10px;
+        }
+
+        .opcion.mostrar {
+            display: block;
+        }
+
+        .opcion.ocultar {
+            margin-left: 20px;
+            /* Cuando se oculta, se aplica un margen izquierdo de 20px */
+        }
+    }
+
+
 }

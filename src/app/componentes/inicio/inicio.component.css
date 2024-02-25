@@ -29,8 +29,12 @@
         .fuerte {
             font-size: 90px;
             color: #75c58e;
+            transition: ease-in-out 300MS;
         }
 
+        .fuerte:hover{
+            scale: 1.02;
+        }
         .medio {
             font-size: 40px;
             color: #40957f;
@@ -56,15 +60,12 @@
         }
 
         .texto {
-            text-align: center;
-            font-size: 1.2rem;
+            text-align: left;
         }
 
     }
 
 }
-
-.contenedorInicio:hover {}
 
 /* Para responsive */
 @media screen and (max-width: 500px) {

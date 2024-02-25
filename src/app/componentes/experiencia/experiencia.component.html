@@ -1,3 +1,60 @@
 <div class="contenedorExperiencia">
-   
+    <div class="texto">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Error tempore
+          tenetur itaque nihil eaque blanditiis dolor reprehenderit, ipsam iste
+          quos. Maiores vitae aut magnam? Odio voluptatibus odit impedit animi nisi?
+        </p>
+      </div>
+  <div class="lista">
+    <ul>
+      <li [ngClass]="{'active': claseActiva == 1}" (click)="mostrarContenido(1)">Desarrollador</li>
+      <li [ngClass]="{'active': claseActiva == 2}" (click)="mostrarContenido(2)">Customer service</li>
+      <li [ngClass]="{'active': claseActiva == 3}" (click)="mostrarContenido(3)">FullStack developer</li>
+      <li [ngClass]="{'active': claseActiva == 4}" (click)="mostrarContenido(4)">Analista de software</li>
+    </ul>
+  </div>
+  <div class="contenido">
+    <article id="opcion1" class="opcion mostrar">
+      <h2>Titulo 1</h2>
+      <h3>Sub titulo</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat voluptas
+        dolore labore sapiente minus praesentium necessitatibus culpa deserunt
+        hic ad sunt quis, tempore, ipsum quasi repellendus blanditiis
+        repudiandae temporibus itaque!
+      </p>
+    </article>
+    <article id="opcion2" class="opcion">
+      <h2>Titulo 2</h2>
+      <h3>Sub titulo</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat voluptas
+        dolore labore sapiente minus praesentium necessitatibus culpa deserunt
+        hic ad sunt quis, tempore, ipsum quasi repellendus blanditiis
+        repudiandae temporibus itaque!
+      </p>
+    </article>
+    <article id="opcion3" class="opcion">
+      <h2>Titulo 3</h2>
+      <h3>Sub titulo</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat voluptas
+        dolore labore sapiente minus praesentium necessitatibus culpa deserunt
+        hic ad sunt quis, tempore, ipsum quasi repellendus blanditiis
+        repudiandae temporibus itaque!
+      </p>
+    </article>
+    <article id="opcion4" class="opcion">
+      <h2>Titulo 4</h2>
+      <h3>Sub titulo</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat voluptas
+        dolore labore sapiente minus praesentium necessitatibus culpa deserunt
+        hic ad sunt quis, tempore, ipsum quasi repellendus blanditiis
+        repudiandae temporibus itaque!
+      </p>
+    </article>
+  </div>
+  
 </div>
