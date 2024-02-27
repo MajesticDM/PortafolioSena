@@ -1,6 +1,73 @@
-.contenedorProyectos{
-    background-color: rgb(255, 255, 255);
-    height: 122dvh;
+.contenedorProyectos {
+    height: 91dvh;
     position: relative;
     z-index: 7;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 10px;
+    border-radius: 28px;
+    scale: 1.01;
+    background: url('https://webimages.mongodb.com/_com_assets/cms/kv2nqd78t2t7fm88e-top-left.svg?auto=format%252Ccompress') top left no-repeat, url('https://webimages.mongodb.com/_com_assets/cms/kv2m7ue0kw174g25m-top-right.svg?auto=format%252Ccompress') top right no-repeat rgb(51, 49, 49);
+    justify-content: space-around;
+    align-items: center;
+
+    .proyectos {
+        display: flex;
+        flex-direction: row;
+        height: 70%;
+        width: 90%;
+    }
+
+    .tecnologias {
+        display: flex;
+        flex-direction: row;
+        height: 30%;
+        width: 90%;
+        gap: 5%;
+
+        .tecnologiaFrontEnd {
+            gap: 5%;
+            border: 1px solid black;
+            border-radius: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            .tarjeta {
+
+                img{
+                    width: 60px;
+                    height: 60px;
+                }
+            }
+        }
+
+        .tecnologiaBackEnd {
+            gap: 5%;
+            border: 1px solid black;
+            border-radius: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            .tarjeta {
+
+                img{
+                    width: 60px;
+                    height: 60px;
+                }
+            }
+        }
+
+        .tecnologiaDb {
+            gap: 5%;
+            border: 1px solid black;
+            border-radius: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            .tarjeta {
+
+                img{
+                    width: 60px;
+                    height: 60px;
+                }
+            }
+        }
+    }
 }
