@@ -13,13 +13,29 @@
 
     .proyectos {
         display: flex;
+        justify-content: center;
+        align-items: center;
         flex-direction: row;
+        flex-wrap: wrap;
+        overflow: auto;
+        gap: 10px;
         height: 70%;
         width: 90%;
+
+        .proyecto{
+            padding: 5px;
+            overflow: hidden;
+            width: 370px; 
+            height: 150px;
+            border-radius: 15px;
+            border: 2px solid black;
+        }
     }
 
     .tecnologias {
         display: flex;
+        justify-content: center;
+        align-items: center;
         flex-direction: row;
         height: 30%;
         width: 90%;
@@ -31,6 +47,7 @@
             border-radius: 10px;
             display: flex;
             flex-wrap: wrap;
+            padding: 10px;
             .tarjeta {
 
                 img{
@@ -41,6 +58,7 @@
         }
 
         .tecnologiaBackEnd {
+            padding: 10px;
             gap: 5%;
             border: 1px solid black;
             border-radius: 10px;
@@ -56,6 +74,7 @@
         }
 
         .tecnologiaDb {
+            padding: 10px;
             gap: 5%;
             border: 1px solid black;
             border-radius: 10px;
