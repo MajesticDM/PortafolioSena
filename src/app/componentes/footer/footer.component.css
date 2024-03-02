@@ -1,4 +1,62 @@
-footer{
+footer {
     display: flex;
     justify-content: space-around;
+    height: 250px;
+
+    .derecho {
+        ul {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+
+            span {
+                cursor: pointer;
+                transition: ease-in-out 200ms;
+
+                i {
+                    margin-bottom: 10px;
+                    transition: ease-in-out 200ms;
+                }
+            }
+
+            span:hover{
+                scale: 1.05;
+
+                i{
+                    color: #75c58e;
+                    transition: ease-in-out 200ms;
+                }
+            }
+
+        }
+
+
+
+    }
+
+    .izquierda {
+        ul {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+
+            span {
+                cursor: pointer;
+                transition: ease-in-out 200ms;
+                i {
+                    margin-bottom: 10px;
+                    transition: ease-in-out 200ms;
+                }
+            }
+            span:hover{
+                scale: 1.05;
+
+                i{
+                    color: #75c58e;
+                }
+                
+            }
+
+        }
+    }
 }

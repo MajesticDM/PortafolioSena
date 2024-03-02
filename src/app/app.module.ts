@@ -14,6 +14,7 @@ import { ExperienciaComponent } from './componentes/experiencia/experiencia.comp
 import { InicioComponent as InicioComponentStandAlone } from './componentes/inicio/inicio.component';
 import { ProyectosComponent } from './componentes/proyectos/proyectos.component';
 import { FooterComponent } from './componentes/footer/footer.component';
+import { FooterDesarrolladorComponent } from './componentes/footer-desarrollador/footer-desarrollador.component';
 
 @NgModule({
     declarations: [AppComponent, InicioComponent, NotFoundComponent],
@@ -29,7 +30,8 @@ import { FooterComponent } from './componentes/footer/footer.component';
         ExperienciaComponent,
         InicioComponentStandAlone,
         ProyectosComponent,
-        FooterComponent
+        FooterComponent,
+        FooterDesarrolladorComponent
     ],
     providers: [],
     bootstrap: [AppComponent]

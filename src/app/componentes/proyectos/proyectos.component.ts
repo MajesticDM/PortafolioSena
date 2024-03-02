@@ -10,4 +10,7 @@ import { CommonModule } from '@angular/common';
 })
 export class ProyectosComponent {
 
+  abrirGithub(proyecto: string){
+    window.open("https://github.com/MajesticDM/"+proyecto,"_blanc")
+  }
 }

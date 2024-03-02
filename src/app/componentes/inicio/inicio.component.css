@@ -29,7 +29,7 @@
         .fuerte {
             font-size: 90px;
             color: #75c58e;
-            transition: ease-in-out 300MS;
+            transition: ease-in-out 300ms;
         }
 
         .fuerte:hover{
