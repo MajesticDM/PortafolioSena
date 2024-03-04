@@ -11,7 +11,8 @@ import { CommonModule } from '@angular/common';
 export class FooterComponent {
 
   llevarAredSocial(red: string){
-    window.open("https://"+red+".com", "_blank")
+    if(red=="github")window.open("https://"+red+".com/MajesticDM/" , "_blank")
+    else window.open("https://"+red+".com", "_blank")
   }
 
   canalMiduDev(){

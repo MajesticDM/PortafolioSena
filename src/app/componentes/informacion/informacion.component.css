@@ -1,6 +1,6 @@
 .contenedorInformacion{
     background-color: rgb(227, 227, 227);
-    height: 122dvh;
+    height: 100dvh;
     position: relative;
     z-index: 6;
 }

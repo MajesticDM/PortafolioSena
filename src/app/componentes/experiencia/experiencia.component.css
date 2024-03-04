@@ -1,5 +1,5 @@
 .contenedorExperiencia {
-    height: 91dvh;
+    height: 100dvh;
     position: relative;
     z-index: 8;
     display: flex;
@@ -64,4 +64,57 @@
     }
 
 
+}
+
+@media screen and (max-width: 850px) {
+    .contenedorExperiencia {
+        flex-direction: column;
+        width: 73dvw;
+
+        .texto {
+            width: 80dvw;
+            height: 40px;
+            font-size: 2.2rem;
+            color: #75c58e;
+            position: relative;
+        }
+
+        .lista {
+            width: 80dvw;
+            height: 0;
+            ul {
+                display: flex;
+
+                li{
+                    font-size: 1.3rem;
+                }
+            }
+        }
+
+        .contenido{
+            width: 80dvw;
+
+            .opcion{
+                list-style: none;
+                background-color: #75c58e;
+                height: 300px;
+                width: 67dvw;
+                display: none;
+                transition: margin-left 2.5s ease;
+                border-radius: 28px;
+                padding: 10px;
+
+                h2{
+                    font-size: 2rem;
+                }
+                h3{
+                    font-size: 1.5rem;
+                }
+                p{
+                    font-size: 1.4rem;
+
+                }
+            }
+        }
+    }
 }

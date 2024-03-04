@@ -1,5 +1,5 @@
 .contenedorInicio {
-    height: 91dvh;
+    height: 100dvh;
     position: relative;
     z-index: 9;
     display: flex;
@@ -68,8 +68,54 @@
 }
 
 /* Para responsive */
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 850px) {
     .contenedorInicio {
-        background-color: red;
+        background:url("../../../assets/Images/undraw_progressive_app_m-9-ms.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 73dvw;
+        
+        .text{
+    
+            .fuerte {
+                width: 80dvw;
+                font-size: 80px;
+                color: #4a4857;
+                transition: ease-in-out 300ms;
+            }
+    
+            
+            .medio {
+                width: 80dvw;
+                font-size: 60px;
+                color: black;
+            }
+            .sub{
+                width: 80dvw;
+                margin: 0;
+                font-size: 30px;
+                color: black;
+            }
+        }
+
+        .icon{
+
+            img{
+                display: none;
+            }
+
+            .texto{
+            
+                .sub{
+                    color: #000000;
+                    width: 80dvw;
+                    font-weight: bold;
+                    font-size: 40px;
+                }
+            }
+        }
     }
 }

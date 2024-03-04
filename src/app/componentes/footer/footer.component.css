@@ -60,3 +60,9 @@ footer {
         }
     }
 }
+
+@media screen and (max-width: 850px) {
+    footer{
+        width: 73dvw;
+    }
+}

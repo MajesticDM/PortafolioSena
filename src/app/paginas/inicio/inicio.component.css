@@ -4,4 +4,24 @@
 }
 
 
+@media screen and (max-width: 850px) {
+    #inicio {
+        max-width: 100dvw;
+    }
 
+    #experiencias {
+        max-width: 100dvw;
+    }
+
+    #proyectos {
+        max-width: 100dvw;
+    }
+
+    #footer {
+        max-width: 100dvw;
+    }
+
+    #desarrollador {
+        max-width: 100dvw;
+    }
+}
