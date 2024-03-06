@@ -1,0 +1,34 @@
+.notFound {
+    height: 90dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .img {
+        height: 40%;
+
+        img {
+            height: 100%;
+        }
+    }
+
+    .text {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        height: 60%;
+
+        h3 {
+            font-size: 6.5rem;
+            margin: 0;
+            color: #75c58e;
+        }
+
+        p {
+            font-size: 4.5rem;
+            margin: 0;
+            color: white;
+        }
+    }
+}
