@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# PortafolioSena
-Portafolio sena
 =======
 # Portafolio
 
